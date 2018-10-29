@@ -1,0 +1,23 @@
+{
+  "name": "azure-mongo-db-error",
+  "version": "1.0.0",
+  "description": "Show the error with Cosmos MongoDB rejecting new records whenever a unique index with subdocuments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainccgi/azure-mongo-db-error.git"
+  },
+  "author": "Iain Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iainccgi/azure-mongo-db-error/issues"
+  },
+  "homepage": "https://github.com/iainccgi/azure-mongo-db-error#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "mongoose": "^5.3.7"
+  }
+}
